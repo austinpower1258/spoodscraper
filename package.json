@@ -1,0 +1,27 @@
+{
+  "name": "spoodscrape",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx index.ts",
+    "db:reset": "tsx src/killAll.ts",
+    "db:generate": "supabase gen types typescript --project-id ufykdascyufhwemtsaoq --schema public > src/db/types.ts",
+    "db:login": "supabase login"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "supabase": "^1.83.7",
+    "tsx": "^3.12.7"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.32.0",
+    "axios": "^1.4.0",
+    "image-size": "^1.0.2",
+    "puppeteer": "^21.0.3",
+    "puppeteer-core": "^21.0.2",
+    "sharp": "^0.32.4"
+  }
+}
