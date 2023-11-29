@@ -114,16 +114,21 @@ async function main() {
   }
 
   const urls = [
-    "https://www.yelp.com/biz_photos/habana-irvine-7?tab=food",
-    "https://www.yelp.com/biz_photos/north-italia-irvine?tab=food",
-    "https://www.yelp.com/biz_photos/baekjeong-irvine-irvine-2?tab=food",
-    "https://www.yelp.com/biz_photos/bosscat-kitchen-and-libations-irvine?tab=food",
-    "https://www.yelp.com/biz_photos/s%C3%BAp-noodle-bar-by-kei-concepts-irvine-3?tab=food",
-    "https://www.yelp.com/biz_photos/cha-chas-latin-kitchen-irvine?tab=food",
-    "https://www.yelp.com/biz_photos/angelinas-pizzeria-napoletana-irvine-2?tab=food",
-    "https://www.yelp.com/biz_photos/solstice-irvine-3?tab=food",
-    "https://www.yelp.com/biz_photos/hironori-craft-ramen-irvine-3?tab=food",
-    "https://www.yelp.com/biz_photos/lazy-dog-restaurant-and-bar-irvine?tab=food"
+    "https://www.yelp.com/biz_photos/the-luke-brasserie-new-haven?tab=food",
+    "https://www.yelp.com/biz_photos/zeneli-pizzeria-and-cucina-napoletana-new-haven-2?tab=food",
+    "https://www.yelp.com/biz_photos/noa-by-september-in-bangkok-new-haven?tab=food",
+    "https://www.yelp.com/biz_photos/menya-gumi-new-haven?tab=food",
+    "https://www.yelp.com/biz_photos/tavern-on-state-new-haven-4?tab=food",
+    "https://www.yelp.com/biz_photos/hachiroku-shokudo-and-sake-bar-new-haven?tab=food",
+    "https://www.yelp.com/biz_photos/icaru-peruvian-restaurant-new-haven?tab=food",
+    "https://www.yelp.com/biz_photos/elm-city-social-new-haven?tab=food",
+    "https://www.yelp.com/biz_photos/villa-lulu-new-haven?tab=food",
+    "https://www.yelp.com/biz_photos/september-in-bangkok-new-haven?tab=food",
+    "https://www.yelp.com/biz_photos/gioia-cafe-and-bar-new-haven?tab=food",
+    "https://www.yelp.com/biz_photos/barcelona-new-haven-new-haven-3?tab=food",
+    "https://www.yelp.com/biz_photos/olea-new-haven-2?tab=food",
+    "https://www.yelp.com/biz_photos/sherkaan-indian-street-food-new-haven-2?tab=food",
+    "https://www.yelp.com/biz_photos/tibetan-kitchen-new-haven?tab=food"
   ];
 
   for (let i = 0; i < urls.length; i++) {
