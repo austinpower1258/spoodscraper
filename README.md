@@ -1,5 +1,5 @@
 # spoodscrape
-This github repository serves the purpose of scraping online Yelp images from various restaurants into a Supabase database for later processing into the CLIP model (SpoodCLIP) and then into the frontend program (SpoodWeb).
+This repository serves the purpose of scraping online Yelp images from various restaurants into a Supabase database for later processing into the CLIP model (SpoodCLIP) and then into the frontend program (SpoodWeb).
 
 ## Setup
 1. Perform an `npm install` to install all of the node packages and dependencies.
